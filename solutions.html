@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Solutions — Magnaite</title>
+<meta name="description" content="Seven solution categories. One stack. Designed to work together across the kingdom." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+    <div class="container">
+        <div class="header-inner">
+            <a href="index.html" class="logo logo-text"><span class="logo-mark"></span>MAGNAITE</a>
+            <nav class="primary-nav">
+                <ul class="main-nav">
+                    <li class="nav-item nav-item-has-dropdown">
+                        <a href="solutions.html">Solutions <span class="caret">▾</span></a>
+                        <div class="nav-dropdown">
+                            <a href="solutions.html" class="dropdown-link dropdown-link-all">All solutions →</a>
+                            <a href="solution-cctv.html" class="dropdown-link">CCTV &amp; AI Analytics</a>
+                            <a href="solution-cybersecurity.html" class="dropdown-link">Cybersecurity</a>
+                            <a href="solution-networking.html" class="dropdown-link">Networking &amp; Connectivity</a>
+                            <a href="solution-av.html" class="dropdown-link">Audio-Visual</a>
+                            <a href="solution-pos.html" class="dropdown-link">Transaction &amp; POS</a>
+                            <a href="solution-maintenance.html" class="dropdown-link">Maintenance &amp; Support</a>
+                            <a href="solution-customizable.html" class="dropdown-link">Customizable Solutions</a>
+                        </div>
+                    </li>
+                    <li class="nav-item nav-item-has-dropdown">
+                        <a href="sector-fnb.html">Sectors <span class="caret">▾</span></a>
+                        <div class="nav-dropdown nav-dropdown-narrow">
+                            <a href="sector-fnb.html" class="dropdown-link dropdown-link-all">All sectors →</a>
+                            <a href="sector-fnb.html" class="dropdown-link">F&amp;B</a>
+                            <a href="sector-government.html" class="dropdown-link">Government</a>
+                            <a href="sector-retail.html" class="dropdown-link">Retail</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="work.html">Work</a></li>
+                    <li class="nav-item nav-item-has-dropdown">
+                        <a href="about.html">About <span class="caret">▾</span></a>
+                        <div class="nav-dropdown nav-dropdown-narrow">
+                            <a href="about.html" class="dropdown-link dropdown-link-all">About Magnaite →</a>
+                            <a href="team.html" class="dropdown-link">The team</a>
+                            <a href="process.html" class="dropdown-link">How we work</a>
+                            <a href="partners.html" class="dropdown-link">Partners</a>
+                            <a href="contact.html" class="dropdown-link">Contact us</a>
+                        </div>
+                    </li>
+                    <li class="nav-item nav-item-has-dropdown">
+                        <a href="news.html">Insights <span class="caret">▾</span></a>
+                        <div class="nav-dropdown nav-dropdown-narrow">
+                            <a href="news.html" class="dropdown-link dropdown-link-all">All insights →</a>
+                            <a href="news.html" class="dropdown-link">News</a>
+                            <a href="articles.html" class="dropdown-link">Articles</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <span class="lang-toggle">EN&nbsp;·&nbsp;العربية</span>
+                <a href="contact.html" class="btn btn-primary">Talk to us</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- HERO -->
+<section class="hero hero-compact">
+    <div class="hero-bg"></div>
+    <div class="container hero-inner">
+        <div class="hero-grid">
+            <div class="hero-content">
+                <div class="breadcrumbs"><a href="index.html">Home</a> <span>·</span> Solutions</div>
+                <span class="eyebrow">Solutions</span>
+                <h1 class="hero-headline">Every system,<br>one screen.</h1>
+                <p class="hero-sub">
+                    There's no fixed list of what Magnaite installs — the stack adapts to what the operation actually needs. What stays consistent is that everything we deploy reports back to one place. One dashboard. One support line. One firm responsible for the whole thing.
+                </p>
+                <div class="hero-ctas">
+                    <a href="contact.html" class="btn btn-primary">Book a consultation</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ALL SOLUTIONS GRID -->
+<section class="fnb-section" style="padding-top: var(--space-12);">
+    <div class="container">
+        <!-- Compact filter bar -->
+        <div class="solutions-filter-bar">
+            <div class="solutions-filter-inner">
+                <span class="solutions-filter-label">Filter</span>
+                <div class="solutions-filter-input-wrap">
+                    <svg class="solutions-filter-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                    <input type="text" class="solutions-filter-input" id="solutionsFilter" placeholder="Try: cybersecurity, networking, POS, AI..." autocomplete="off" />
+                </div>
+                <span class="solutions-filter-count" id="solutionsFilterCount"><strong>6</strong> showing</span>
+            </div>
+        </div>
+
+                <div class="fnb-cards" id="solutionsCardGrid">
+            <a href="solution-cctv.html" class="fnb-card" data-keywords="cctv ai analytics video cameras loss prevention shrinkage monitoring see floor">
+                <svg class="fnb-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/></svg>
+                <h3 class="fnb-card-title">CCTV &amp; AI Analytics</h3>
+                <p class="fnb-card-sub">See what's actually happening on the floor.</p>
+                <p class="fnb-card-desc">Cloud video, AI loss prevention, transaction-linked review. Catch what's happening before it shows up in the books.</p>
+            </a>
+            <a href="solution-cybersecurity.html" class="fnb-card fnb-card-featured" data-keywords="cybersecurity security nca compliance protection threats privacy">
+                <svg class="fnb-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2 4 5v6c0 5 3.5 9.5 8 11 4.5-1.5 8-6 8-11V5l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
+                <h3 class="fnb-card-title">Cybersecurity</h3>
+                <p class="fnb-card-sub">Protected against what could shut you down.</p>
+                <p class="fnb-card-desc">NCA-registered. Compliance handled. Threats stopped before they reach the operation.</p>
+            </a>
+            <a href="solution-networking.html" class="fnb-card" data-keywords="networking connectivity wifi cabling switches routers wan multi branch infrastructure">
+                <svg class="fnb-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="2"/><path d="M5 12a7 7 0 0 1 14 0"/><path d="M2 12a10 10 0 0 1 20 0"/><line x1="12" y1="14" x2="12" y2="22"/></svg>
+                <h3 class="fnb-card-title">Networking &amp; Connectivity</h3>
+                <p class="fnb-card-sub">Branches that don't go offline.</p>
+                <p class="fnb-card-desc">Multi-branch networking infrastructure engineered so every location performs the same way. The work that holds everything else up.</p>
+            </a>
+            <a href="solution-av.html" class="fnb-card" data-keywords="audio visual av signage displays video walls screens pa public address conference">
+                <svg class="fnb-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="14" rx="1"/><line x1="8" y1="22" x2="16" y2="22"/><line x1="12" y1="18" x2="12" y2="22"/></svg>
+                <h3 class="fnb-card-title">Audio-Visual</h3>
+                <p class="fnb-card-sub">Update every screen from one place.</p>
+                <p class="fnb-card-desc">Visual systems — signage, video walls, conference rooms, PA — all controlled from a single dashboard.</p>
+            </a>
+            <a href="solution-pos.html" class="fnb-card" data-keywords="pos point of sale payments transaction foodics restaurant payment">
+                <svg class="fnb-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/><line x1="6" y1="15" x2="10" y2="15"/></svg>
+                <h3 class="fnb-card-title">Transaction &amp; POS</h3>
+                <p class="fnb-card-sub">Payments that hold during peak hours.</p>
+                <p class="fnb-card-desc">Transaction infrastructure built for the moments when failure costs you most. Engineered for the Friday rush.</p>
+            </a>
+            <a href="solution-maintenance.html" class="fnb-card" data-keywords="maintenance support 24/7 sla help desk service contract">
+                <svg class="fnb-card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a4 4 0 0 1 5.6 5.6L8 24 2 18 14.7 6.3Z"/><path d="m15 7 4 4"/></svg>
+                <h3 class="fnb-card-title">Maintenance &amp; Support</h3>
+                <p class="fnb-card-sub">Help, the moment you need it.</p>
+                <p class="fnb-card-desc">24/7 technical support, same-day SLA across the kingdom. The team that stays around long after the install.</p>
+            </a>
+            </div>
+    </div>
+</section>
+
+<!-- DETAILED SECTIONS -->
+
+<!-- CCTV & AI -->
+<section class="page-section alt" id="cctv">
+    <div class="container">
+        <div class="split-row">
+            <div class="text-block">
+                <span class="eyebrow">01 · CCTV &amp; AI Analytics</span>
+                <h2>Know what happened. In minutes, not days.</h2>
+                <p>The problem: most CCTV systems record everything and tell you nothing. Reviewing footage takes hours. Loss happens in the gap between the shift and the report.</p>
+                <p>What we install: cloud-based CCTV deployed across one branch or one hundred, paired with AI loss prevention that flags suspicious refund and void patterns automatically. Type a transaction number into the dashboard, see the exact moment it was rung up. Investigation time drops from days to minutes — the difference between catching loss this week or finding out about it next quarter.</p>
+                <p>Sized to your operation. Three cameras at one location or three hundred across the network — the system scales without re-architecting.</p>
+                <a href="contact.html" class="btn-arrow">Discuss CCTV deployment <span>→</span></a>
+            </div>
+            <div class="image-block" style="background-image: url('images/networking-server-cabinet-hall.jpg');"></div>
+        </div>
+    </div>
+</section>
+
+<!-- CYBERSECURITY (links to dedicated page) -->
+<section class="page-section" id="cybersecurity">
+    <div class="container">
+        <div class="split-row">
+            <div class="image-block" style="background-image: url('images/cyber-firewall.jpg');"></div>
+            <div class="text-block">
+                <span class="eyebrow">02 · Cybersecurity</span>
+                <h2>The layer underneath everything else.</h2>
+                <p>NCA-registered cybersecurity practice. Designed for the realities of operating at kingdom scale: multi-site networks, government compliance requirements, and the threat landscape facing Saudi enterprises in the Vision 2030 era.</p>
+                <p>What we deliver: network hardening, endpoint security, SOC integrations, incident response planning, NCA compliance roadmaps.</p>
+                <a href="solution-cybersecurity.html" class="btn-arrow">Read full cybersecurity practice <span>→</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- NETWORKING -->
+<section class="page-section alt" id="networking">
+    <div class="container">
+        <div class="split-row">
+            <div class="text-block">
+                <span class="eyebrow">03 · Networking &amp; Connectivity</span>
+                <h2>The infrastructure that holds everything else up.</h2>
+                <p>The problem: when the network drops, every other system goes with it. POS down. Cameras blind. Signage frozen. Online orders bouncing. Most multi-branch operators have networks pieced together across years and vendors — different gear at every site, different failure modes at every site.</p>
+                <p>What we install: structured cabling, managed switches, dual-WAN routing, and enterprise Wi-Fi — engineered to behave the same way at every location. Issues diagnosed remotely. Traffic re-routed automatically when one upstream fails. The branch keeps trading even when one path goes down.</p>
+                <p>Sized to your phase. We don't oversize the deployment for an operation you don't yet have. The infrastructure grows when you grow.</p>
+                <a href="contact.html" class="btn-arrow">Discuss networking infrastructure <span>→</span></a>
+            </div>
+            <div class="image-block" style="background-image: url('images/case-archi-barista.jpg');"></div>
+        </div>
+    </div>
+</section>
+
+<!-- AV -->
+<section class="page-section" id="av">
+    <div class="container">
+        <div class="split-row">
+            <div class="image-block" style="background-image: url('images/sector-retail-hero.jpg');"></div>
+            <div class="text-block">
+                <span class="eyebrow">04 · Audio-Visual</span>
+                <h2>Visual systems your team actually controls.</h2>
+                <p>The problem: digital signage that takes weeks to update branch-by-branch. Conference room AV that never works on the first call. Public address systems pieced together from three different vendors with three different remote controls.</p>
+                <p>What we install: video walls, digital signage with centralized content management, conference room AV, and public address systems — all reporting back to one dashboard. Push menu updates, signage changes, and content refreshes across every store from a single screen. What used to take weeks now takes minutes — and stays consistent across every branch.</p>
+                <a href="contact.html" class="btn-arrow">Discuss AV deployment <span>→</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- POS -->
+<section class="page-section alt" id="pos">
+    <div class="container">
+        <div class="split-row">
+            <div class="text-block">
+                <span class="eyebrow">05 · Transaction &amp; POS</span>
+                <h2>Payment infrastructure that holds the rush.</h2>
+                <p>The problem: when POS goes down during peak hours, the line stops, the orders bounce, and the shift loses revenue that doesn't come back. Most POS infrastructure isn't engineered for the actual velocity of QSR or coffee operations during the Friday rush.</p>
+                <p>What we install: payment and ordering infrastructure designed around the realities of high-volume Saudi F&amp;B — multi-shift teams, kitchen display integration, back-office reporting, and tested integrations with the POS platforms operators already run. Built so the rush is the test it passes, not the moment it fails.</p>
+                <p>Cost-effective at every scale. Whether you're at three locations or three hundred, the deployment is sized to the actual throughput — not over-engineered to a spec sheet.</p>
+                <a href="contact.html" class="btn-arrow">Discuss POS infrastructure <span>→</span></a>
+            </div>
+            <div class="image-block" style="background-image: url('images/solutions-overview-hero.jpg');"></div>
+        </div>
+    </div>
+</section>
+
+<!-- MAINTENANCE -->
+<section class="page-section" id="maintenance">
+    <div class="container">
+        <div class="split-row">
+            <div class="image-block" style="background-image: url('images/cctv-security-ops.jpg');"></div>
+            <div class="text-block">
+                <span class="eyebrow">06 · Maintenance &amp; Support</span>
+                <h2>The reason our clients stay.</h2>
+                <p>24/7 technical support. Preventive maintenance schedules. Remote diagnostics. Same-day SLA across the kingdom. This is the layer most integrators treat as an afterthought. For us, it's the entire reason ten-year client relationships exist.</p>
+                <a href="contact.html" class="btn-arrow">Discuss support contracts <span>→</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final-cta">
+    <div class="container final-cta-inner">
+        <h2>Not sure which solution<br>you actually need?</h2>
+        <p>That's what the consultation is for. Thirty minutes with a Magnaite solutions architect — we'll map what you have, what's missing, and what would actually move the operation.</p>
+        <div class="final-cta-buttons">
+            <a href="contact.html" class="btn btn-primary">Book a consultation</a>
+            <a href="work.html" class="btn btn-ghost">See deployments</a>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section alt" style="background-color: var(--bg-secondary);">
+    <div class="container">
+        <div class="text-block" style="max-width: 720px;">
+            <span class="eyebrow">FAQ</span>
+            <h2>Solutions — common questions.</h2>
+        </div>
+        <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question" type="button">Do I have to deploy everything together, or can I start with one system?<span class="faq-icon">+</span></button>
+                    <div class="faq-answer"><div class="faq-answer-inner"><p>Start with one. Most clients do. The systems are designed to work standalone or together — phasing is the standard pattern, not the exception. Sized to your phase.</p></div></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" type="button">Will it integrate with the systems I already run?<span class="faq-icon">+</span></button>
+                    <div class="faq-answer"><div class="faq-answer-inner"><p>Almost always, yes. We've done tested integrations across the major Saudi POS platforms, networking equipment, CCTV systems, and access control. We assess your current stack in the free site visit and tell you exactly what works as-is.</p></div></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" type="button">Is the cost upfront, or spread over time?<span class="faq-icon">+</span></button>
+                    <div class="faq-answer"><div class="faq-answer-inner"><p>Both options exist. We size the engagement to your phase — cost-effective for early-stage operations, comprehensive for kingdom-scale ones. Phasing the deployment lets the cost stay in proportion to the value delivered.</p></div></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" type="button">Do you handle the install, or do I have to find a separate installer?<span class="faq-icon">+</span></button>
+                    <div class="faq-answer"><div class="faq-answer-inner"><p>We handle the install end-to-end — design, sourcing, installation, configuration, training, and ongoing support. One firm, one accountability line.</p></div></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" type="button">What's the SLA for support after install?<span class="faq-icon">+</span></button>
+                    <div class="faq-answer"><div class="faq-answer-inner"><p>Same-day SLA across the kingdom, four-hour response in Riyadh. Most issues resolved remotely before they slow you down. 24/7 monitoring is part of standard maintenance contracts.</p></div></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" type="button">How do you handle compliance with NCA cybersecurity requirements?<span class="faq-icon">+</span></button>
+                    <div class="faq-answer"><div class="faq-answer-inner"><p>Magnaite is a registered partner with the National Cybersecurity Authority. NCA compliance is built into the cybersecurity work we do across enterprise and government clients.</p></div></div>
+                </div>
+        </div>
+    </div>
+</section>
+
+<script>
+(function(){
+    document.querySelectorAll('.faq-question').forEach(function(b){
+        if (b.dataset.bound) return;
+        b.dataset.bound = '1';
+        b.addEventListener('click', function(){
+            b.parentElement.classList.toggle('active');
+        });
+    });
+})();
+</script>
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid footer-grid-expanded">
+            <div class="footer-brand">
+                <a href="index.html" class="logo logo-text"><span class="logo-mark"></span>MAGNAITE</a>
+                <p>Saudi systems integrator since 1989. Wired to stay.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                    <a href="#" class="social-icon" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+                    <a href="#" class="social-icon" aria-label="Pinterest"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg></a>
+                    <a href="#" class="social-icon" aria-label="Snapchat"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.166 22.21c-.062 0-.122-.002-.182-.005-.05.003-.116.005-.184.005-1.014 0-1.654-.378-2.243-.733-.418-.252-.812-.49-1.314-.573-.246-.04-.493-.06-.733-.06-.43 0-.77.066-1.018.114-.152.029-.283.054-.385.054-.107 0-.226-.026-.281-.214-.043-.149-.075-.293-.105-.434-.078-.357-.135-.575-.265-.595z"/></svg></a>
+                    <a href="#" class="social-icon" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.589 6.686a4.793 4.793 0 0 1-3.77-4.245V2h-3.445v13.672a2.896 2.896 0 0 1-5.201 1.743l-.002-.001.002.001a2.895 2.895 0 0 1 3.183-4.51v-3.5a6.329 6.329 0 0 0-5.394 10.692 6.33 6.33 0 0 0 10.857-4.424V8.687a8.182 8.182 0 0 0 4.773 1.526V6.79a4.831 4.831 0 0 1-1.003-.104z"/></svg></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Solutions</h4>
+                <ul>
+                    <li><a href="solutions.html">All solutions</a></li>
+                    <li><a href="solution-cctv.html">CCTV &amp; AI</a></li>
+                    <li><a href="solution-cybersecurity.html">Cybersecurity</a></li>
+                    <li><a href="solution-networking.html">Networking</a></li>
+                    <li><a href="solution-av.html">Audio-Visual</a></li>
+                    <li><a href="solution-pos.html">POS</a></li>
+                    <li><a href="solution-maintenance.html">Support</a></li>
+                    <li><a href="solution-customizable.html">Customizable</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Sectors &amp; Work</h4>
+                <ul>
+                    <li><a href="sector-fnb.html">F&amp;B sector</a></li>
+                    <li><a href="sector-government.html">Government sector</a></li>
+                    <li><a href="sector-retail.html">Retail sector</a></li>
+                    <li><a href="work.html">All case studies</a></li>
+                    <li><a href="case-shawarmer.html">Shawarmer</a></li>
+                    <li><a href="case-mewa.html">M.E.W.A</a></li>
+                    <li><a href="case-mall.html">Riyadh mall</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>About &amp; Insights</h4>
+                <ul>
+                    <li><a href="about.html">About Magnaite</a></li>
+                    <li><a href="team.html">The team</a></li>
+                    <li><a href="process.html">How we work</a></li>
+                    <li><a href="partners.html">Partners</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="news-ruijie-2026.html">Ruijie 2026</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Office</h4>
+                <ul>
+                    <li><span>Alsulimaniyah 12243-7548</span></li>
+                    <li><span>Riyadh, Saudi Arabia</span></li>
+                    <li><span>Sat–Thu, 9:00–17:00 AST</span></li>
+                    <li><a href="tel:+966114576456">+966 11 457 6456</a></li>
+                    <li><a href="https://wa.me/966534567811">+966 53 456 7811</a></li>
+                    <li><a href="mailto:contact@magnaite.com">contact@magnaite.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 Magnaite Solutions. Founded 1989. Wired to stay.</span>
+            <span class="legal"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Cookies</a></span>
+        </div>
+    </div>
+</footer>
+
+<div class="fab-stack">
+    <a href="https://wa.me/966534567811" class="fab whatsapp" target="_blank" rel="noopener"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg></a>
+    <a href="tel:+966114576456" class="fab phone"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.07 15.07 0 0 1-6.59-6.58l2.2-2.21c.27-.27.35-.66.24-1.02A11.4 11.4 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1z"/></svg></a>
+</div>
+<script>
+(function() {
+    var input = document.getElementById('solutionsFilter');
+    var counter = document.getElementById('solutionsFilterCount');
+    var grid = document.getElementById('solutionsCardGrid');
+    if (!input || !grid) return;
+    var cards = grid.querySelectorAll('.fnb-card');
+    var totalCards = cards.length;
+
+    function runFilter() {
+        var q = input.value.toLowerCase().trim();
+        var visible = 0;
+        cards.forEach(function(card) {
+            var kws = (card.dataset.keywords || '').toLowerCase();
+            var title = (card.querySelector('.fnb-card-title') || {}).textContent || '';
+            var sub = (card.querySelector('.fnb-card-sub') || {}).textContent || '';
+            var desc = (card.querySelector('.fnb-card-desc') || {}).textContent || '';
+            var hay = (kws + ' ' + title + ' ' + sub + ' ' + desc).toLowerCase();
+            if (!q || hay.indexOf(q) !== -1) {
+                card.classList.remove('is-hidden');
+                visible++;
+            } else {
+                card.classList.add('is-hidden');
+            }
+        });
+        if (counter) {
+            counter.innerHTML = '<strong>' + visible + '</strong> ' + (visible === 1 ? 'showing' : 'showing');
+        }
+    }
+
+    input.addEventListener('input', runFilter);
+})();
+</script>
+<script>(function(){var h=document.getElementById('siteHeader');function s(){if(window.scrollY>50)h.classList.add('scrolled');else h.classList.remove('scrolled');}window.addEventListener('scroll',s,{passive:true});s();})();</script>
+</body>
+</html>
